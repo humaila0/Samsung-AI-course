@@ -1,0 +1,38 @@
+1. Create a 1D array of numbers from 0 to 9 and reshape it into a 2x5 array.
+Change the values of elements in the first row to negative values.
+
+2.Generate a 5x5 array of random integers between 1 and 100.
+Find the minimum, maximum, and average values of this array.
+Calculate the sum of values in each row and each column.
+
+3.Create two 3x3 matrices with random numbers.
+Perform element-wise addition, subtraction, multiplication, and division on these matrices.
+Calculate the dot product of these two matrices.
+
+4.Create a 4x4 array with random values.
+Extract the second row and the third column.
+Extract the sub-array consisting of the elements from the 2nd to the 4th row and from the 1st to the 3rd column.
+
+5.Create a 1D NumPy array with numbers from 1 to 20.
+Replace all even numbers with their square values.
+Create a boolean mask to filter out numbers greater than 50, and print only those elements.
+
+6.Create a DataFrame with columns 'Name', 'Age', 'Gender', and 'Score' for a group of 5 students.
+Inspect the first few rows and the data types of each column.
+Get a summary of the DataFrame’s statistical metrics using describe().
+
+7.Create a DataFrame with 10 rows and columns 'ID', 'Age', 'Income', and 'Score'.
+Sort the data based on 'Income' in descending order.
+Replace missing values in 'Score' with the average score of the column.
+
+8.Use the DataFrame created in Task 7.
+Filter the rows where 'Income' is above 50000 and 'Age' is below 30.
+Retrieve only the 'ID' and 'Score' columns for these filtered rows.
+
+9.Create a DataFrame containing columns 'Department', 'Employee', 'Salary', and 'Experience'.
+Group the data by 'Department' and calculate the mean and maximum 'Salary' for each department.
+Find the total number of employees in each department.
+
+10.Create two DataFrames, df1 with columns 'Employee', 'Department', and 'Salary', and df2 with columns 'Employee' and 'Project'.
+Merge the two DataFrames on the 'Employee' column to include project information.
+Find the total salary for each project by grouping on the 'Project' column.
