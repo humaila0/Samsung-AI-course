@@ -1,0 +1,25 @@
+Task1: Create a simple calculator that can perform addition, subtraction, multiplication, and division. 
+The program should ask for two numbers and the desired operation, then display the result.
+
+Task2: Write a program that checks if a given string is a palindrome (reads the same forward and backward). 
+Ignore case and spaces while checking.
+
+Task3: Write a function that takes two numbers as input and returns a list of all prime numbers within that range. 
+Implement logic to determine if a number is prime.
+
+Task4: Implement a command-line Rock, Paper, Scissors game where the user plays against the computer. 
+The program should keep score and declare the winner after a set number of rounds.
+
+Task5: Write a function that generates the first n numbers in the Fibonacci sequence. 
+Allow the user to input n, and display the sequence up to that number.
+
+Task6: Create a number guessing game where the computer selects a random number, and the user has to guess it within a specified range (e.g., 1-100). 
+The program should provide feedback (e.g., “too high,” “too low”) and keep track of the number of attempts.
+
+Task7: Write a program that takes an integer input n and generates a pyramid pattern of asterisks (*) with n rows.
+
+Task8: Write a program that finds the second largest number in a list of numbers.
+
+Task9: Write a program that finds and displays the common elements in two lists.
+
+Task10: Create a program that generates a multiplication table for a given integer up to a specified range.
