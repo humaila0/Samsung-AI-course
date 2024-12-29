@@ -1,0 +1,56 @@
+QUIZ (CHAPTER-3)
+1.
+•	Load a CSV file containing a dataset of your choice into a Pandas DataFrame.
+•	Replace any missing values in numerical columns with the mean of that column.
+•	Convert any categorical data (e.g., "Male", "Female") into numerical form (e.g., 1 for Male, 0 for Female).
+•	Plot the distribution of a numerical column of your choice using a histogram in Matplotlib.
+2.
+•	Create a random dataset with NumPy representing daily temperatures (e.g., over a month) and store it in a Pandas DataFrame.
+•	Use Pandas to find the average, minimum, and maximum temperatures from the data.
+•	Plot the daily temperature data as a line plot, with the days on the x-axis and temperatures on the y-axis. Label the axes and add a title to the plot.
+3.
+•	Using a dataset with at least two numerical columns (e.g., height and weight), load it into a Pandas DataFrame.
+•	Compute the correlation between the columns using Pandas.
+•	Based on the correlation value, make a brief observation about the relationship between the variables.
+•	Visualize this relationship using a scatter plot in Matplotlib, with one variable on the x-axis and the other on the y-axis.
+4.
+•	Simulate monthly sales data for a year using NumPy, with each month’s sales as a random integer.
+•	Store this data in a Pandas DataFrame with columns “Month” and “Sales.”
+•	Calculate the total and average sales for the year.
+•	Plot the sales data as a bar chart in Matplotlib, with months on the x-axis and sales on the y-axis. Use appropriate labels and a title for the chart.
+5.
+•	Create a random NumPy array representing stock prices for 30 days.
+•	Store the prices in a Pandas DataFrame with columns for “Day” and “Price.”
+•	Calculate the percentage change in stock price from one day to the next and store it in a new column.
+•	Plot a line graph to show the daily stock price and a separate plot showing the percentage change over time.
+
+
+
+6.
+•	Load a CSV file with data on individuals (e.g., age, income, and occupation).
+•	Filter the data to include only individuals above a certain income threshold and below a certain age threshold.
+•	Calculate the mean age and mean income for the filtered dataset.
+•	Use Matplotlib to create a bar chart comparing the mean income of the filtered vs. the unfiltered data.
+7.
+•	Create a random dataset representing daily temperatures and humidity levels for a month using NumPy.
+•	Store the data in a Pandas DataFrame with columns for “Temperature” and “Humidity.”
+•	Calculate the mean temperature and humidity.
+•	Use a scatter plot to visualize the relationship between temperature and humidity, and describe any trend you observe.
+8.
+•	Load a CSV file containing data on students’ scores in different subjects.
+•	Calculate each student's average score across subjects and add it as a new column.
+•	Identify the top 5 students based on the average score and display their details.
+•	Create a histogram to show the distribution of average scores across all students.
+9.
+•	Generate random data representing an e-commerce dataset with columns for “Product ID,” “Price,” and “Quantity Sold.”
+•	Use Pandas to calculate the total revenue for each product and store it in a new column.
+•	Identify the top 3 products based on total revenue and display their details.
+•	Visualize the total revenue for these products using a bar chart.
+10.
+•	Using NumPy, generate random daily temperatures for a city over 100 days.
+•	Store the data in a Pandas DataFrame and apply a 7-day rolling average to smooth out the temperature fluctuations.
+•	Plot both the daily temperatures and the 7-day rolling average on the same line graph, using Matplotlib.
+•	Describe any observed trends, such as whether the temperature is generally increasing or decreasing over time.
+
+
+
